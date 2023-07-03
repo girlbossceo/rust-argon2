@@ -81,7 +81,7 @@ impl Variant {
 
 impl Default for Variant {
     fn default() -> Variant {
-        Variant::Argon2i
+        Variant::Argon2id
     }
 }
 

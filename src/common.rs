@@ -28,7 +28,7 @@ pub const MIN_HASH_LENGTH: u32 = 4;
 pub const MAX_HASH_LENGTH: u32 = 0xFFFF_FFFF;
 
 /// Default number of memory blocks (2^12).
-pub const DEF_MEMORY: u32 = 4096;
+pub const DEF_MEMORY: u32 = 65536;
 
 /// Minimum number of memory blocks (each of BLOCK_SIZE bytes).
 pub const MIN_MEMORY: u32 = 2 * SYNC_POINTS;
