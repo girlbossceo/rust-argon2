@@ -18,11 +18,11 @@ name = "argon2"
 default = ["crossbeam-utils"]
 
 [dependencies]
-base64 = "0.13"
-blake2b_simd = "1.0"
-constant_time_eq = "0.1.5"
-crossbeam-utils = { version = "0.8", optional = true }
-serde = { version = "1.0.133", optional = true, features=["derive"] }
+base64 = "0.13.1"
+blake2b_simd = "1.0.1"
+constant_time_eq = "0.3.0"
+crossbeam-utils = { version = "0.8.16", optional = true }
+serde = { version = "1.0.164", optional = true, features=["derive"] }
 
 [dev-dependencies]
 hex = "0.4"
